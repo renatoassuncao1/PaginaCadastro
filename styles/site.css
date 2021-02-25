@@ -1,0 +1,88 @@
+﻿body {
+    background-color: white;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+    form[id=form1] {
+        border: 2px solid #00ff90;
+        border-radius: 10px;
+        width: 75%;
+        display: inline-block;
+        position: relative;
+    }
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+label {
+    /*https://www.w3schools.com/css/css_form.asp */
+    display: block;
+    margin-top: 10px;
+}
+
+input, button {
+    padding: 10px 5px;
+}
+
+input {
+    width: 20%;
+}
+
+    input[type=text], select {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=button], input [type=submit] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+div[id= DIVdadostabela] {
+    background-color: #3CBC8D;
+    color: white;
+    text-align: center;
+}
+
+img[id=logo1] {
+    display: inline-block;
+    position: relative;
+}
+
+div[id=Cadastro] {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
